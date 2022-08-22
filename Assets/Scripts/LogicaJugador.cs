@@ -27,7 +27,7 @@ public class LogicaJugador : MonoBehaviour
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Limite")
+        if(collision.gameObject.tag == "limite")
         {
             Destroy(gameObject);
         }
