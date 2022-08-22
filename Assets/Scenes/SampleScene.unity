@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 207417940}
   - component: {fileID: 207417939}
   m_Layer: 0
-  m_Name: cuadrado 2
+  m_Name: Plataforma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -333,7 +333,7 @@ GameObject:
   - component: {fileID: 755989601}
   - component: {fileID: 755989600}
   m_Layer: 0
-  m_Name: cuadrado 2 (2)
+  m_Name: Plataforma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -554,8 +554,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511728132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3, y: 10.6, z: 4.47}
-  m_LocalScale: {x: 0.4625, y: 0.425, z: 1}
+  m_LocalPosition: {x: -2.601, y: 10.149, z: 4.47}
+  m_LocalScale: {x: 0.38726616, y: 0.3121492, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -569,9 +569,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1511728132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83d1208a97db7fe48955d36557a5f1c0, type: 3}
+  m_Script: {fileID: 11500000, guid: a8c0c6f58e8672944ab5f5268a83b5fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocidad: 4
+  fuerzaSalto: 5
+  posX: 0
+  rb: {fileID: 1511728133}
 --- !u!1 &1886937670
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,7 +671,7 @@ GameObject:
   - component: {fileID: 2013721472}
   - component: {fileID: 2013721471}
   m_Layer: 0
-  m_Name: cuadrado 2 (1)
+  m_Name: Plataforma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
