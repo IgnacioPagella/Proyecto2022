@@ -13,10 +13,9 @@ GameObject:
   - component: {fileID: 1898335530969293141}
   - component: {fileID: 1898335530969293140}
   - component: {fileID: 1898335530969293163}
-  - component: {fileID: 1898335530969293162}
-  - component: {fileID: -1549499688393720720}
-  - component: {fileID: 2829025393613172513}
-  - component: {fileID: 9087019606599830861}
+  - component: {fileID: 6310064583945013903}
+  - component: {fileID: 2411623906032697928}
+  - component: {fileID: 1401080117322614434}
   m_Layer: 0
   m_Name: 'Personaje '
   m_TagString: Untagged
@@ -151,7 +150,7 @@ MonoBehaviour:
   fuerzaSalto: 6
   posX: 0
   rb: {fileID: 1898335530969293140}
---- !u!114 &1898335530969293162
+--- !u!114 &6310064583945013903
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -170,27 +169,12 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
-  - {fileID: 2829025393613172513}
-  - {fileID: 9087019606599830861}
+  - {fileID: 2411623906032697928}
+  - {fileID: 1401080117322614434}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &-1549499688393720720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1898335530969293167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f84367d4d378d454db9f64953e57ab26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  codigosQueignorar:
-  - {fileID: 1898335530969293163}
-  - {fileID: -1549499688393720720}
---- !u!114 &2829025393613172513
+--- !u!114 &2411623906032697928
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -223,7 +207,7 @@ MonoBehaviour:
     InterpolateOption: 0
     InterpolateMoveTowardsSpeed: 1
     InterpolateLerpSpeed: 0
---- !u!114 &9087019606599830861
+--- !u!114 &1401080117322614434
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -27,7 +27,7 @@ public class GestorPhoton : MonoBehaviourPunCallbacks
     }
     public override void OnJoinedRoom()
     {
-        PhotonNetwork.Instantiate("Personaje", new Vector2(Random.Range(-7, 7), 12), Quaternion.identity);
+        PhotonNetwork.Instantiate("Personaje", new Vector3(Random.Range(-7, 7), 12, 0), Quaternion.identity);
 
     }
 
