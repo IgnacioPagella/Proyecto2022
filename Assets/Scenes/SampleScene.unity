@@ -333,6 +333,8 @@ GameObject:
   - component: {fileID: 399327161}
   - component: {fileID: 399327160}
   - component: {fileID: 399327159}
+  - component: {fileID: 399327164}
+  - component: {fileID: 399327163}
   m_Layer: 0
   m_Name: limite
   m_TagString: limite
@@ -443,6 +445,62 @@ Transform:
   m_Father: {fileID: 1504536931}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &399327163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399327158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8efc6b1d64977384eb3405357896c656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PositionModel:
+    SynchronizeEnabled: 0
+    TeleportEnabled: 1
+    TeleportIfDistanceGreaterThan: 3
+    InterpolateOption: 2
+    InterpolateMoveTowardsSpeed: 1
+    InterpolateLerpSpeed: 1
+    ExtrapolateOption: 0
+    ExtrapolateSpeed: 1
+    ExtrapolateIncludingRoundTripTime: 1
+    ExtrapolateNumberOfStoredPositions: 1
+  m_RotationModel:
+    SynchronizeEnabled: 0
+    InterpolateOption: 1
+    InterpolateRotateTowardsSpeed: 180
+    InterpolateLerpSpeed: 5
+  m_ScaleModel:
+    SynchronizeEnabled: 1
+    InterpolateOption: 0
+    InterpolateMoveTowardsSpeed: 1
+    InterpolateLerpSpeed: 0
+--- !u!114 &399327164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399327158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 399327163}
+  sceneViewId: 500
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &755989599
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,6 +664,8 @@ GameObject:
   - component: {fileID: 1488797647}
   - component: {fileID: 1488797646}
   - component: {fileID: 1488797645}
+  - component: {fileID: 1488797650}
+  - component: {fileID: 1488797649}
   m_Layer: 0
   m_Name: limite (1)
   m_TagString: limite
@@ -716,6 +776,62 @@ Transform:
   m_Father: {fileID: 1504536931}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1488797649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488797644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8efc6b1d64977384eb3405357896c656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PositionModel:
+    SynchronizeEnabled: 0
+    TeleportEnabled: 1
+    TeleportIfDistanceGreaterThan: 3
+    InterpolateOption: 2
+    InterpolateMoveTowardsSpeed: 1
+    InterpolateLerpSpeed: 1
+    ExtrapolateOption: 0
+    ExtrapolateSpeed: 1
+    ExtrapolateIncludingRoundTripTime: 1
+    ExtrapolateNumberOfStoredPositions: 1
+  m_RotationModel:
+    SynchronizeEnabled: 0
+    InterpolateOption: 1
+    InterpolateRotateTowardsSpeed: 180
+    InterpolateLerpSpeed: 5
+  m_ScaleModel:
+    SynchronizeEnabled: 1
+    InterpolateOption: 0
+    InterpolateMoveTowardsSpeed: 1
+    InterpolateLerpSpeed: 0
+--- !u!114 &1488797650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488797644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 1488797649}
+  sceneViewId: 501
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1504536930
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,6 +881,8 @@ GameObject:
   - component: {fileID: 1640360833}
   - component: {fileID: 1640360832}
   - component: {fileID: 1640360831}
+  - component: {fileID: 1640360836}
+  - component: {fileID: 1640360835}
   m_Layer: 0
   m_Name: limite (2)
   m_TagString: limite
@@ -875,6 +993,62 @@ Transform:
   m_Father: {fileID: 1504536931}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &1640360835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640360830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8efc6b1d64977384eb3405357896c656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PositionModel:
+    SynchronizeEnabled: 0
+    TeleportEnabled: 1
+    TeleportIfDistanceGreaterThan: 3
+    InterpolateOption: 2
+    InterpolateMoveTowardsSpeed: 1
+    InterpolateLerpSpeed: 1
+    ExtrapolateOption: 0
+    ExtrapolateSpeed: 1
+    ExtrapolateIncludingRoundTripTime: 1
+    ExtrapolateNumberOfStoredPositions: 1
+  m_RotationModel:
+    SynchronizeEnabled: 0
+    InterpolateOption: 1
+    InterpolateRotateTowardsSpeed: 180
+    InterpolateLerpSpeed: 5
+  m_ScaleModel:
+    SynchronizeEnabled: 1
+    InterpolateOption: 0
+    InterpolateMoveTowardsSpeed: 1
+    InterpolateLerpSpeed: 0
+--- !u!114 &1640360836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640360830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 1640360835}
+  sceneViewId: 502
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1886937670
 GameObject:
   m_ObjectHideFlags: 0
@@ -1078,6 +1252,8 @@ GameObject:
   - component: {fileID: 2115083701}
   - component: {fileID: 2115083700}
   - component: {fileID: 2115083699}
+  - component: {fileID: 2115083704}
+  - component: {fileID: 2115083703}
   m_Layer: 0
   m_Name: limite (3)
   m_TagString: limite
@@ -1188,82 +1364,133 @@ Transform:
   m_Father: {fileID: 1504536931}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
---- !u!1001 &1898335531762364724
+--- !u!114 &2115083703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115083698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8efc6b1d64977384eb3405357896c656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PositionModel:
+    SynchronizeEnabled: 0
+    TeleportEnabled: 1
+    TeleportIfDistanceGreaterThan: 3
+    InterpolateOption: 2
+    InterpolateMoveTowardsSpeed: 1
+    InterpolateLerpSpeed: 1
+    ExtrapolateOption: 0
+    ExtrapolateSpeed: 1
+    ExtrapolateIncludingRoundTripTime: 1
+    ExtrapolateNumberOfStoredPositions: 1
+  m_RotationModel:
+    SynchronizeEnabled: 0
+    InterpolateOption: 1
+    InterpolateRotateTowardsSpeed: 180
+    InterpolateLerpSpeed: 5
+  m_ScaleModel:
+    SynchronizeEnabled: 1
+    InterpolateOption: 0
+    InterpolateMoveTowardsSpeed: 1
+    InterpolateLerpSpeed: 0
+--- !u!114 &2115083704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115083698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 2115083703}
+  sceneViewId: 503
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!1001 &2501507996327026378
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1898335530969293143, guid: 183674d1d2754fa43ad04085b16497f9,
+    - target: {fileID: 2501507996044021393, guid: 5b0981734395626428e711f41e408e69,
+        type: 3}
+      propertyPath: m_Name
+      value: Personaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501507996044021417, guid: 5b0981734395626428e711f41e408e69,
         type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1898335530969293143, guid: 183674d1d2754fa43ad04085b16497f9,
+    - target: {fileID: 2501507996044021417, guid: 5b0981734395626428e711f41e408e69,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.601
       objectReference: {fileID: 0}
-    - target: {fileID: 1898335530969293143, guid: 183674d1d2754fa43ad04085b16497f9,
+    - target: {fileID: 2501507996044021417, guid: 5b0981734395626428e711f41e408e69,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 9.47
       objectReference: {fileID: 0}
-    - target: {fileID: 1898335530969293143, guid: 183674d1d2754fa43ad04085b16497f9,
+    - target: {fileID: 2501507996044021417, guid: 5b0981734395626428e711f41e408e69,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1898335530969293143, guid: 183674d1d2754fa43ad04085b16497f9,
+    - target: {fileID: 2501507996044021417, guid: 5b0981734395626428e711f41e408e69,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1898335530969293143, guid: 183674d1d2754fa43ad04085b16497f9,
+    - target: {fileID: 2501507996044021417, guid: 5b0981734395626428e711f41e408e69,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1898335530969293143, guid: 183674d1d2754fa43ad04085b16497f9,
+    - target: {fileID: 2501507996044021417, guid: 5b0981734395626428e711f41e408e69,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1898335530969293143, guid: 183674d1d2754fa43ad04085b16497f9,
+    - target: {fileID: 2501507996044021417, guid: 5b0981734395626428e711f41e408e69,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1898335530969293143, guid: 183674d1d2754fa43ad04085b16497f9,
+    - target: {fileID: 2501507996044021417, guid: 5b0981734395626428e711f41e408e69,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1898335530969293143, guid: 183674d1d2754fa43ad04085b16497f9,
+    - target: {fileID: 2501507996044021417, guid: 5b0981734395626428e711f41e408e69,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1898335530969293143, guid: 183674d1d2754fa43ad04085b16497f9,
+    - target: {fileID: 2501507996044021417, guid: 5b0981734395626428e711f41e408e69,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1898335530969293167, guid: 183674d1d2754fa43ad04085b16497f9,
-        type: 3}
-      propertyPath: m_Name
-      value: 'Personaje '
-      objectReference: {fileID: 0}
-    - target: {fileID: 1898335530969293167, guid: 183674d1d2754fa43ad04085b16497f9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6310064583945013903, guid: 183674d1d2754fa43ad04085b16497f9,
+    - target: {fileID: 8034069967932319089, guid: 5b0981734395626428e711f41e408e69,
         type: 3}
       propertyPath: sceneViewId
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 183674d1d2754fa43ad04085b16497f9, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 5b0981734395626428e711f41e408e69, type: 3}

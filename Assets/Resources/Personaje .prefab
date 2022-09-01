@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6310064583945013903}
   - component: {fileID: 2411623906032697928}
   - component: {fileID: 1401080117322614434}
+  - component: {fileID: 3229739362405461457}
   m_Layer: 0
   m_Name: 'Personaje '
   m_TagString: Untagged
@@ -223,3 +224,18 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 0
   m_TeleportEnabled: 0
   m_TeleportIfDistanceGreaterThan: 3
+--- !u!114 &3229739362405461457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898335530969293167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f84367d4d378d454db9f64953e57ab26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  codigosQueignorar:
+  - {fileID: 1898335530969293163}
+  - {fileID: 3229739362405461457}
